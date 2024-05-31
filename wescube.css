@@ -1,0 +1,359 @@
+*{
+margin:0px;
+padding:0px;
+font-family: sans-serif;
+text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 5px 10px rgba(98, 97, 97, 0.329);
+    position: fixed;
+    background-color: white;
+}
+
+nav {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 40%;
+    list-style: none;
+}
+
+nav ul a {
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+    padding: 10px 0px;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wscubetech.co/Assignments/One%20Page%20Website/images/the-town-bg-01.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+}
+.banner i {
+    color: white;
+    font-size: 80px;
+    margin-top: 20px;
+}
+#introduction{
+    width:100%
+    padding-top:110px;
+}
+.intro-mid {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.intro-img {
+    flex-basis:45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-img img {
+    width: 100%;
+    padding-top: 110px;
+}
+
+.intro-text {
+    flex-basis: 50%;
+}
+
+.intro-text h2 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: rgb(52, 151, 217);
+}
+
+.intro-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: rgb(143, 143, 143);
+}
+
+.intro-text button {
+    padding: 15px 20px;
+    background-color: rgb(52, 151, 217);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+.intro-mid2 {
+    max-width: 1320px;
+    margin: auto;
+    padding: 90px 0;
+}
+
+.intro-mid2-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-box {
+    flex-basis: 32%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.intro-box i {
+    font-size: 60px;
+    color: rgb(52, 151, 217);
+    padding: 10px 0;
+
+}
+
+.intro-box h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(52, 151, 217);
+    padding: 10px 0;
+}
+
+.intro-box p {
+    font-size: 18px;
+    color: rgb(143, 143, 143);
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+#work {
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.work-mid {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.work-mid h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: rgb(52, 151, 217);
+}
+
+.work-mid p {
+    font-size: 16px;
+    margin: 30px 100px;
+    padding: 10px 125px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: rgb(143, 143, 143);
+    text-align: center;
+}
+.work-row{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.work-box{
+    flex-basis: 17%;
+    display: flex;
+    justify-content: space-around;
+    gap: 4%;
+}
+.work-box img{
+    width: 220px;
+    height: 330px;
+}
+
+#contact{
+    width:100%;
+    padding-top:40px;
+    background: url('https://wscubetech.co/Assignments/One%20Page%20Website/images/the-town-bg-02.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.contact-mid{
+    max-width: 1170px;
+    margin: auto;
+}
+.contact-mid h2{
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 30px 0 30px 20px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.border{
+    width: 25%;
+    border: 4px solid white;
+
+}
+.contact-mid>p{
+    font-size: 19px;
+    margin: 80px 0 30px 20px;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    text-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+.contact-row1{
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone-dev{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.phone-dev i{
+    font-size: 35px;
+    color: white;
+    padding: 5px 20px 5px 5px;
+}
+.phone-dev i:hover{
+    color: rgb(52, 151, 217);
+}
+.phone-dev p{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0;
+
+}
+.phone-dev p:hover{
+    color: rgb(52, 151, 217);
+}
+.email-dev{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.email-dev:hover{
+    color: rgb(52, 151, 217);
+}
+
+.email-dev i{
+    font-size: 35px;
+    color: white;
+    padding: 5px 20px 5px 5px;
+}
+.email-dev i:hover{
+    color: rgb(52, 151, 217);
+}
+.email-dev p{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0;
+
+}
+.email-dev p:hover{
+    color: rgb(52, 151, 217);
+}
+.contact-row2{
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location-dev{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.location-dev i{
+    font-size: 35px;
+    color: white;
+    padding: 5px 20px 5px 5px;
+}
+.location-dev i:hover{
+    color: rgb(52, 151, 217);
+}
+.location-dev p{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0;
+}
+.location-dev p:hover{
+    color: rgb(52, 151, 217);
+}
+.submit-dev{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.submit-dev input{
+    padding: 10px 15px;
+    margin-right: 10px;
+    width: 200px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    background: transparent;
+}
+
+
+
+.submit-dev button{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: #ced4da;
+    border: none;
+
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0 10px 0;
+}
+.footer p{
+    font-size: 14px;
+    color: white;
+
+}
+
+
